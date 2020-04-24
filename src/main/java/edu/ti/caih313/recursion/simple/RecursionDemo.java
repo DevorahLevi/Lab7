@@ -17,7 +17,6 @@ public class RecursionDemo {
         System.out.println();
     }
 
-    //Precondition: number is positive
     public static void displayAsWords(int number) {
         if (number < 0) {
             System.out.print("negative ");
